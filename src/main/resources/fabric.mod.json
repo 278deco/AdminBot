@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "adminbot",
+  "version": "1.0.0",
+
+  "name": "Admin Bot",
+  "description": "Moderate the Saint PC's server and link it to the Discord's server",
+  "authors": [
+    "278deco"
+  ],
+
+  "license": "CC-BY-NC-4.0",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "fr.o278deco.adminbot.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  }
+}
